@@ -1,0 +1,18 @@
+# Genel olarak görmezden gelinecek dosya türleri
+*.idea
+*.obj
+*.bin
+
+# Visual Studio ile ilgili dosyalar
+*.suo
+*.user
+
+# Build klasörleri
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+
+# Diğer geçici dosyalar
+*.tmp
+*.log
+*.cache 
