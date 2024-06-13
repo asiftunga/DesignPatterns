@@ -1,10 +1,19 @@
-﻿namespace StrategyPattern.Ducks;
+﻿using StrategyPattern.DuckBehaviors;
+
+namespace StrategyPattern.Ducks;
 
 public class PlasticDuck : Duck
 {
+    public PlasticDuck()
+    {
+        _quackBehavior = new MuteQuack();
+        _flyBehavior = new FlyNoWay();
+    }
+
+
     public override void Swim()
     {
-        throw new NotImplementedException();
+        Console.WriteLine("i can swim");
     }
 
     public override void Display()
