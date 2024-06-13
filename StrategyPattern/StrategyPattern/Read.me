@@ -1,0 +1,1 @@
+This repository contains examples and implementations of design patterns from the book "Head First Design Patterns". The aim is to provide a practical understanding of various design patterns and how they can be applied to real-world scenarios.
